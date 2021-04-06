@@ -21,7 +21,9 @@ from minemeld.ft.actorbase import ActorBaseFT  #pylint: disable=E0401
 from minemeld import __version__
 
 ENDPOINT_SUBMITBATCH = '/api/reference_data/sets/bulk_load/'
-
+USER_AGENT= 'PaloAltoNetworks-MineMeld'
+# Maximum number of batch upload
+MAX_BATCH_SIZE=50
 LOG = logging.getLogger(__name__)
 
 class Output(ActorBaseFT):
