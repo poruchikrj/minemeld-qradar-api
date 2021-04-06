@@ -4,12 +4,12 @@ description: >
 
 prototypes:
   output:
-    author: SOC Sogeti
+    author: Illia Timchenko
     class: minemeld_qradar_api.Output
     development_status: EXPERIMENTAL
     node_type: output
     indicator_types:
-      - IPv4
+      - any
     tags:
       - extension
     description: >
@@ -17,4 +17,12 @@ prototypes:
     config:
         URL: <<to be updated>>
         Token: <<to be updated>>
-        RefSet: <<to be updated>>      
+        Set_IPv4: Malicious IPs
+        Set_URL: Malicious URLs
+        Set_IPv6: Malicious IPs
+        Set_Email: Malicious Emails
+        Set_MD5: Malicious MD5
+        Set_SHA1: Malicious SHA1
+        Set_SHA256: Malicious SHA256
+        Set_Filename: Malicious Filenames
+        Set_Domain: Malicious Domains      
