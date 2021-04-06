@@ -1,7 +1,7 @@
 {
-    "version": "0.1",
+    "version": "0.2",
     "name": "minemeld-qradar-api",
-    "author": "SOC Sogeti",
+    "author": "Illia Timchenko",
     "author_email": "elios1@gmail.com",
     "description": "MineMeld Nodes for QRadar API",
     "entry_points": {
