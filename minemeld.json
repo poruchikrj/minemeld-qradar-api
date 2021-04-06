@@ -1,0 +1,19 @@
+{
+    "version": "0.1",
+    "name": "minemeld-qradar-api",
+    "author": "SOC Sogeti",
+    "author_email": "elios1@gmail.com",
+    "description": "MineMeld Nodes for QRadar API",
+    "entry_points": {
+        "minemeld_nodes": {
+            "minemeld_qradar_api.Output": "minemeld_qradar_api.node:Output"
+        },
+        "minemeld_prototypes": {
+            "minemeld_qradar_api.prototypes": "minemeld_qradar_api:prototypes"
+        },
+        "minemeld_webui": {
+            "qradarWebui": "minemeld_qradar_api:webui_blueprint"
+        }
+    },
+    "manifest_version": 0
+}

@@ -1,0 +1,20 @@
+url: https://www.ibm.com/docs/en/qradar-on-cloud?topic=api-accessing-interactive-documentation-page
+description: >
+  Nodes for QRadar API
+
+prototypes:
+  output:
+    author: SOC Sogeti
+    class: minemeld_qradar_api.Output
+    development_status: EXPERIMENTAL
+    node_type: output
+    indicator_types:
+      - URL
+    tags:
+      - extension
+    description: >
+      Output node for Qradar API
+    config:
+        URL: https://192.168.178.43:9443
+        Token: 39f08544-cd7c-4ac8-bf0f-47ef9bd3486e
+        RefSet: Malicious URLs      
