@@ -1,4 +1,4 @@
-# mminemeld-qradar-api
+# Minemeld-qradar-api
 
 Minemeld nodes for QRadar API
 
